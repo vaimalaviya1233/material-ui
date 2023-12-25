@@ -203,7 +203,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.23.5.tgz#ffb878728bb6bdcb6f4510aa51b1be9afb8cfd98"
   integrity sha512-uU27kfDRlhfKl+w1U6vp16IuvSLtjAxdArVXPa9BvLkrr7CYIsxH5adpHObeAGY/41+syctUWOZ140a2Rvkgjw==
 
-"@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.13.16", "@babel/core@^7.22.9", "@babel/core@^7.23.6", "@babel/core@^7.7.5":
+"@babel/core@^7.11.6", "@babel/core@^7.12.3", "@babel/core@^7.13.16", "@babel/core@^7.22.15", "@babel/core@^7.22.9", "@babel/core@^7.23.6", "@babel/core@^7.7.5":
   version "7.23.6"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.23.6.tgz#8be77cd77c55baadcc1eae1c33df90ab6d2151d4"
   integrity sha512-FxpRyGjrMJXh7X3wGLGhNDCRiwpWEF74sKjTLDJSG5Kyvow3QZaG0Adbqzi9ZrVjTWpsX+2cxWXD71NMg93kdw==
@@ -224,7 +224,7 @@
     json5 "^2.2.3"
     semver "^6.3.1"
 
-"@babel/generator@^7.12.11", "@babel/generator@^7.22.9", "@babel/generator@^7.23.6", "@babel/generator@^7.6.2":
+"@babel/generator@^7.12.11", "@babel/generator@^7.22.15", "@babel/generator@^7.22.9", "@babel/generator@^7.23.6", "@babel/generator@^7.6.2":
   version "7.23.6"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.23.6.tgz#9e1fca4811c77a10580d17d26b57b036133f3c2e"
   integrity sha512-qrSfCYxYQB5owCmGLbl8XRpX1ytXlpueOb0N0UmQwA073KZxejgQTzAmJezxvpwQD9uGtK2shHdi55QT+MbjIw==
@@ -892,7 +892,7 @@
     "@babel/helper-module-transforms" "^7.23.3"
     "@babel/helper-plugin-utils" "^7.22.5"
 
-"@babel/plugin-transform-modules-commonjs@^7.13.8", "@babel/plugin-transform-modules-commonjs@^7.22.5", "@babel/plugin-transform-modules-commonjs@^7.23.3":
+"@babel/plugin-transform-modules-commonjs@^7.13.8", "@babel/plugin-transform-modules-commonjs@^7.22.15", "@babel/plugin-transform-modules-commonjs@^7.22.5", "@babel/plugin-transform-modules-commonjs@^7.23.3":
   version "7.23.3"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.23.3.tgz#661ae831b9577e52be57dd8356b734f9700b53b4"
   integrity sha512-aVS0F65LKsdNOtcz6FRCpE4OgsP2OFnW46qNxNIX9h3wuzaNcSQsJysuMwqSibC98HPrf2vCgtxKNwS0DAlgcA==
@@ -1344,7 +1344,7 @@
     "@babel/parser" "^7.22.15"
     "@babel/types" "^7.22.15"
 
-"@babel/traverse@^7.1.6", "@babel/traverse@^7.22.8", "@babel/traverse@^7.23.6", "@babel/traverse@^7.4.5", "@babel/traverse@^7.8.3":
+"@babel/traverse@^7.1.6", "@babel/traverse@^7.22.15", "@babel/traverse@^7.22.8", "@babel/traverse@^7.23.6", "@babel/traverse@^7.4.5", "@babel/traverse@^7.8.3":
   version "7.23.6"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.6.tgz#b53526a2367a0dd6edc423637f3d2d0f2521abc5"
   integrity sha512-czastdK1e8YByZqezMPFiZ8ahwVMh/ESl9vPgvgdB9AmFMGP5jfpFax74AQgl5zj4XHzqeYAg2l8PuUeRS1MgQ==
@@ -2239,6 +2239,14 @@
     debug "^4.1.1"
     picocolors "^1.0.0"
 
+"@linaria/logger@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@linaria/logger/-/logger-5.0.0.tgz#b4c175484bf49706973dbe27572f5e19e922d33e"
+  integrity sha512-PZd5H0I4F84U0kXSE+vD75ltIGDxEA6gMDNWS2aDZFitmdlQM5rIXqvKFrp5NsHa7a3AH+I2Hxm0dg60WZF7vg==
+  dependencies:
+    debug "^4.3.4"
+    picocolors "^1.0.0"
+
 "@linaria/shaker@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.5.3.tgz#0f6b588f61f2f3d425287a939256acbb64269a95"
@@ -2264,6 +2272,15 @@
     "@linaria/logger" "^4.5.0"
     "@linaria/utils" "^4.5.3"
 
+"@linaria/tags@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-5.0.2.tgz#32c7b1a7b8c0c6036fbcb8d92a86fb7a3eaf98d8"
+  integrity sha512-opcORl2sA6WkBjTNLHTgpet97dNKnwPRX/QGGZMykBsvGH3AsnEg/bT31cKBMBhL+YBGQsCdBmolxvCkWPOXQw==
+  dependencies:
+    "@babel/generator" "^7.22.15"
+    "@linaria/logger" "^5.0.0"
+    "@linaria/utils" "^5.0.2"
+
 "@linaria/utils@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.5.3.tgz#cf54f4096927ea347d01e814c1fb7aca7cf4063a"
@@ -2278,6 +2295,22 @@
     "@babel/traverse" "^7.22.8"
     "@babel/types" "^7.22.5"
     "@linaria/logger" "^4.5.0"
+    babel-merge "^3.0.0"
+    find-up "^5.0.0"
+    minimatch "^9.0.3"
+
+"@linaria/utils@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-5.0.2.tgz#cf20d7935001afe32c72ad119d785df5fe45d5b5"
+  integrity sha512-ZL8Yz4IIr9A8a5+o5LRnEpgdzIkyj4yKJrhw5Zv8wwvL+d/MHUK0q+l/KvxBmuYdcF+YYVHZ9eeBHTQBSL7r/w==
+  dependencies:
+    "@babel/core" "^7.22.15"
+    "@babel/generator" "^7.22.15"
+    "@babel/plugin-transform-modules-commonjs" "^7.22.15"
+    "@babel/template" "^7.22.15"
+    "@babel/traverse" "^7.22.15"
+    "@babel/types" "^7.22.15"
+    "@linaria/logger" "^5.0.0"
     babel-merge "^3.0.0"
     find-up "^5.0.0"
     minimatch "^9.0.3"
