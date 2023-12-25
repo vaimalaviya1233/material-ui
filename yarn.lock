@@ -2239,6 +2239,14 @@
     debug "^4.1.1"
     picocolors "^1.0.0"
 
+"@linaria/logger@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@linaria/logger/-/logger-5.0.0.tgz#b4c175484bf49706973dbe27572f5e19e922d33e"
+  integrity sha512-PZd5H0I4F84U0kXSE+vD75ltIGDxEA6gMDNWS2aDZFitmdlQM5rIXqvKFrp5NsHa7a3AH+I2Hxm0dg60WZF7vg==
+  dependencies:
+    debug "^4.3.4"
+    picocolors "^1.0.0"
+
 "@linaria/shaker@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.5.3.tgz#0f6b588f61f2f3d425287a939256acbb64269a95"
