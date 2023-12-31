@@ -44,7 +44,7 @@
     "@mui/system": "^5.15.2",
     "@mui/types": "^7.2.11",
     "@mui/utils": "^5.15.2",
-    "clsx": "^2.0.0",
+    "clsx": "^2.1.0",
     "prop-types": "^15.8.1"
   },
   "devDependencies": {
